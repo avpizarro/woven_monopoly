@@ -1,0 +1,70 @@
+1. Define Property Class 
+    properties: 
+      (name, type, colour, price, rent) 
+    methods: 
+      duplicateRent()
+2. Define Player Class 
+    properties: 
+      (name: "", wallet: 16, location: 0, properties: []) 
+    methods: 
+      addToWallet(num) 
+      substractFromWallet(num) 
+      addProperty(property) 
+      changeLocation(num)
+3. Create the Board
+    List of Properties
+4. Create the players List
+5. Create the two rolls Lists: 
+    game1 / game2.
+
+// START
+
+6. Ask the user to choose game1 or game2
+7. Divide the chosen game list into a list of rounds:
+     len(round) = len(players)
+8. Recursive function that keeps going until the game list is empty. 
+     rounds = createRoundList(roll)
+      // Can use s loop: While i<4 const turn_array = [] 
+      // const dice = roll.shift()
+
+9. Start the round
+    Loop through the round list while all players still have money:
+     While i<turns.length and all player.wallets > 0
+      Get the first turn = turns[i]
+
+7.  Loop to Play the round --- Call this recursively until either the wallet is 0 or round is empty
+      Play the first round for j=0 while j<turn.length
+      Get the first player player = players[j]
+      Get the dice roll value dice = turn[j]
+
+8.    function to get the correct location:
+        const newLocation = dice + player.location
+        Set the new location: 
+          newLoc < 9 ? player.Loc = newLoc : player.Loc = newLoc % 9 && player.wallet += 1
+          // That last bit is because we need to add the 1 dolar to the wallet if newLoc is bigger
+
+9.    function to buy or pay rent
+        if I own it:
+          Go to the next player j++ -- call play()
+        elif it doesn't have an owner:
+          if enough money:
+            buy it (call wallet.substract method + addProperty).
+            check if player has got 2 properties of the same colour:
+             yes: duplicate both properties rent.
+             no: move to next player
+          else: GAME OVER
+        else: 
+          payRent():
+             if no money: 
+              GAME OVER
+             else:
+              call wallet.subtract() for the player and wallet.add() for the landlord
+
+
+10. Function to declare who is the winner
+      findWinner(players) 
+      discard the looser :( filter the array
+      loop through the array comparing and return the one with the most $$
+      print("And the winner is!")
+// STOP
+
