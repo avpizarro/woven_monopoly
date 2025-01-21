@@ -7,7 +7,12 @@ class Board_Property():
     self.rent = price
 
   def duplicate_rent(self):
-    return int(self.rent) * 2
+    if isinstance(self.rent, int):
+      self.rent *= 2
+      print("New rent; ", self.rent)
+      return self.rent
+    else: 
+      raise ValueError("Incorrect value")
   
 
 house = Board_Property("lagenda", "2", "red", "property")

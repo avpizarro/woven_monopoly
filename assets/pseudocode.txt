@@ -3,17 +3,21 @@
       (name, type, colour, price, rent) 
     methods: 
       duplicateRent()
+
 2. Define Player Class 
     properties: 
       (name: "", wallet: 16, location: 0, properties: []) 
     methods: 
       addToWallet(num) 
       substractFromWallet(num) 
-      addProperty(property) 
       changeLocation(num)
+      addproperty(property)
+
 3. Create the Board
     List of Properties
+
 4. Create the players List
+
 5. Create the two rolls Lists: 
     game1 / game2.
 
@@ -42,6 +46,7 @@
         Set the new location: 
           newLoc < 9 ? player.Loc = newLoc : player.Loc = newLoc % 9 && player.wallet += 1
           // That last bit is because we need to add the 1 dolar to the wallet if newLoc is bigger
+     *** Added this as a method to the player class ***
 
 9.    function to buy or pay rent
         if I own it:
