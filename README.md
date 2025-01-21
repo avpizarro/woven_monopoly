@@ -44,7 +44,7 @@ Before starting the project I spent a bit of time in Miro understanding the logi
 
 ### 🏗️ Project Structure
 
-Starting with a simple structure, but might look into adding a models and services directory.
+Starting with a simple structure, but I might look into adding a models and services directory.
 
   ```sh
   .
