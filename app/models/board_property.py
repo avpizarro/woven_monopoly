@@ -1,8 +1,8 @@
 class Board_Property():
-  def __init__(self, name, price, colour, type):
+  def __init__(self, name, type, price="None", colour="None"):
     self.name = name
-    self.colour = colour
     self.type = type
+    self.colour = colour
     self.price = price
     self.rent = price
 
@@ -13,7 +13,3 @@ class Board_Property():
       return self.rent
     else: 
       raise ValueError("Incorrect value")
-  
-
-house = Board_Property("lagenda", "2", "red", "property")
-print(house.duplicate_rent())
