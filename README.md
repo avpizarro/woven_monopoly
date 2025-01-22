@@ -4,7 +4,7 @@
 
 A simplified Monopoly-style game implemented in Python. Players roll dice, move around a virtual board, buy properties, pay rent, and aim to dominate the market! 🎲💰
 
-##### Check the final stats of both games here: [Roll_1](docs/rolls_1_stats.txt), [Roll_2](docs/rolls_2_stats.txt)
+##### Check final stats for both games here: [Roll_1](docs/rolls_1_stats.txt), [Roll_2](docs/rolls_2_stats.txt)
 ---
 
 ## 📜 Features
