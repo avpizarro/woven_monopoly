@@ -7,7 +7,7 @@ A simplified Monopoly-style game implemented in Python. Players roll dice, move 
 ---
 
 ## 📜 Features
-- 🎲 Dice rolling with randomized movement
+- 🎲 Dice rolling with randomized movement - coming soon
 - 🏡 Buy and own properties
 - 💸 Pay rent when landing on owned properties
 - 👥 Multiplayer support
