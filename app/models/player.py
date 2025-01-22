@@ -42,12 +42,3 @@ class Player():
     print("You have acquired:", property)
     print("Your realstate portfolio is growing:", self.realestate)
     return self.realestate
-  
-  
-  
-  
-# alex = Player("Alex")
-# alex.new_realestate("RMIT")
-# alex.new_realestate("Central Park")
-# alex.new_realestate("The Tan")
-
