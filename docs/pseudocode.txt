@@ -1,10 +1,10 @@
-1. Define Property Class 
+1. Define Property Class ✅
     properties: 
       (name, type, colour, price, rent) 
     methods: 
       duplicateRent()
 
-2. Define Player Class 
+2. Define Player Class ✅
     properties: 
       (name: "", wallet: 16, location: 0, properties: []) 
     methods: 
@@ -13,19 +13,19 @@
       changeLocation(num)
       addproperty(property)
 
-3. Create the Board
+3. Create the Board ✅
     List of Properties
 
-4. Create the players List
+4. Create the players List ✅
 
-5. Create the two rolls Lists: 
+5. Create the two rolls Lists: ✅
     game1 / game2.
 
 // START
 
-6. Ask the user to choose game1 or game2
+6. Ask the user to choose game1 or game2 ✅ ^^^ADD random option + Fix enter delay when choosing.
 
-7. Function to divide the chosen game list into a list of rounds:
+7. Function to divide the chosen game list into a list of rounds: ✅
     len(round) = len(players)
     Recursive function that keeps going until the game list is empty. 
     rounds = createRoundList(roll)
@@ -42,7 +42,7 @@
       Get the first player player = players[j]
       Get the dice roll value dice = turn[j]
 
-8.    function to get the correct location:
+8.    function to get the correct location: ✅
         const newLocation = dice + player.location
         Set the new location: 
           newLoc < 9 ? player.Loc = newLoc : player.Loc = newLoc % 9 && player.wallet += 1
@@ -67,7 +67,7 @@
               call wallet.subtract() for the player and wallet.add() for the landlord
 
 
-10. Function to declare who is the winner
+10. Function to declare who is the winner ✅
       findWinner(players) 
       discard the looser :( filter the array
       loop through the array comparing and return the one with the most $$
