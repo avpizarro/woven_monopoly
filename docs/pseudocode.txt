@@ -24,12 +24,13 @@
 // START
 
 6. Ask the user to choose game1 or game2
-7. Divide the chosen game list into a list of rounds:
-     len(round) = len(players)
-8. Recursive function that keeps going until the game list is empty. 
-     rounds = createRoundList(roll)
-      // Can use s loop: While i<4 const turn_array = [] 
-      // const dice = roll.shift()
+
+7. Function to divide the chosen game list into a list of rounds:
+    len(round) = len(players)
+    Recursive function that keeps going until the game list is empty. 
+    rounds = createRoundList(roll)
+    // Can use s loop: While i<4 const turn_array = [] 
+    // const dice = roll.shift()
 
 9. Start the round
     Loop through the round list while all players still have money:
