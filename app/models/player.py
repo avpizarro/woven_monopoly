@@ -8,13 +8,13 @@ class Player():
   def credit(self, amount):
     """Add money to the wallet"""
     self.wallet += amount
-    print(self.name, "your new balance is: ", self.wallet)
+    # print(self.name, "your new balance is:", self.wallet)
     return self.wallet
   
   def debit(self, amount):
     """Substract money from the wallet"""
     self.wallet -= amount
-    print(self.name, "your new balance is: ", self.wallet)
+    # print(self.name, "your new balance is:", self.wallet)
     return self.wallet
   
   def set_location(self, roll):
@@ -31,14 +31,14 @@ class Player():
     else:
       self.location = new_location % 9
       self.wallet += 1
-      
       print("You have completed a loop here is $1!")
+  
     print("Your new location index is:", self.location)
+    
     return self.location
   
   def new_realestate(self, property):
     """Add the property to the players realstate portfolio"""
     self.realestate.append(property)
-    print("You have acquired:", property)
-    print("Your realstate portfolio is growing:", self.realestate)
+    print("You have acquired:", property.name, "your realestate portfolio is growing!")
     return self.realestate

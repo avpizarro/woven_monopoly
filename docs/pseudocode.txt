@@ -1,8 +1,9 @@
 1. Define Property Class ✅
     properties: 
-      (name, type, colour, price, rent) 
+      (name, type, colour, price, rent) ***Add the owners property
     methods: 
       duplicateRent()
+      *** Add the add owner method ✅
 
 2. Define Player Class ✅
     properties: 
@@ -32,24 +33,25 @@
     // Can use s loop: While i<4 const turn_array = [] 
     // const dice = roll.shift()
 
-9. Start the round
-    Loop through the round list while all players still have money:
-     While i<turns.length and all player.wallets > 0
-      Get the first turn = turns[i]
+8. Start the round  ✅
+    Loop through the rounds list while all players still have money:
+     for i in rounds.length while all player.wallets > 0 - might just break the loop when wallet =0 instead
+      Get the first round = rounds[i]
 
-7.  Loop to Play the round --- Call this recursively until either the wallet is 0 or round is empty
+9.  Loop to Play the round --- Call this recursively until either the wallet is 0 or round is empty  ✅
       Play the first round for j=0 while j<turn.length
       Get the first player player = players[j]
       Get the dice roll value dice = turn[j]
 
-8.    function to get the correct location: ✅
+10.    function to get the correct location: ✅
         const newLocation = dice + player.location
         Set the new location: 
           newLoc < 9 ? player.Loc = newLoc : player.Loc = newLoc % 9 && player.wallet += 1
           // That last bit is because we need to add the 1 dolar to the wallet if newLoc is bigger
      *** Added this as a method to the player class ***
 
-9.    function to buy or pay rent
+
+11.    function to buy or pay rent ✅
         if I own it:
           Go to the next player j++ -- call play()
         elif it doesn't have an owner:
@@ -67,7 +69,7 @@
               call wallet.subtract() for the player and wallet.add() for the landlord
 
 
-10. Function to declare who is the winner ✅
+12. Function to declare who is the winner ✅
       findWinner(players) 
       discard the looser :( filter the array
       loop through the array comparing and return the one with the most $$

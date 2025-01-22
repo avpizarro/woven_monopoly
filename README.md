@@ -37,7 +37,7 @@ pip3 install -r requirements.txt
 
 ### 4️⃣ **Run the game**
 ```sh
-python3 main.py
+python3 app/main.py
 ```
 
 ---

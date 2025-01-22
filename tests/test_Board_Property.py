@@ -4,7 +4,7 @@ from app.models.board_property import Board_Property
 class TestClass(unittest.TestCase):
   def setUp(self) -> None:
     """Set up an instance before each test"""
-    self.property = Board_Property("Chef Lagenda", 4, "red", "property")  
+    self.property = Board_Property("Chef Lagenda", "property", 4, "red")  
 
   def test_initialization(self):
     """Test that Board_Property initlializes correctly."""
@@ -13,6 +13,7 @@ class TestClass(unittest.TestCase):
     self.assertEqual(self.property.colour, "red")
     self.assertEqual(self.property.type, "property")
     self.assertEqual(self.property.rent, 4) # Rent should match the price initially
+    self.assertEqual(self.property.owner, "")
     
     
   def test_duplicate(self):
