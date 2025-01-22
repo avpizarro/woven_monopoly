@@ -13,7 +13,7 @@ class TestClass(unittest.TestCase):
     self.assertEqual(self.property.colour, "red")
     self.assertEqual(self.property.type, "property")
     self.assertEqual(self.property.rent, 4) # Rent should match the price initially
-    self.assertEqual(self.property.owner, "")
+    self.assertEqual(self.property.owner, None)
     
     
   def test_duplicate(self):

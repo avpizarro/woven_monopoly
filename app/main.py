@@ -43,31 +43,31 @@ for i in range(len(rounds)):
     if game_over: # Stop immediately if game_over is triggered
       break
     
-    # sleep(1)
+    sleep(0.25)
     
     print("********************** NEXT PLAYER ********************")
     
-    # sleep(1)
+    sleep(0.25)
     # Get each player and the dice value they rolled to play their turn
     player = players[j]
     roll = round[j]
     
     print(player.name.capitalize(), "rolled", roll)
     
-    # sleep(1)
+    sleep(0.25)
     
     # Move the player
     location_index = player.set_location(roll)
     location = board[location_index]
     print(player.name.capitalize(), "is in:", location.name)
     
-    # sleep(1)
+    sleep(0.25)
     if location.owner is None:
       print(location.name, "belongs to nadie!")
     else:
       print(location.name, "belongs to", location.owner.name)
   
-    # sleep(1)
+    sleep(0.25)
     
     # Player is the GO tile (Already credited 1 when setting new_location)
     if location_index == 0:
@@ -80,21 +80,21 @@ for i in range(len(rounds)):
       if player.wallet <= location.price:
         player.debit(location.price)
         print("GAME OVER", player.name, "is broke!")
-        # sleep(1)
+        sleep(0.25)
         game_over = True # GAME OVER
         break
       
       # Case if the player has enough money to buy
       else: 
         player.debit(location.price)
-        # sleep(1)
+        sleep(0.25)
         player.new_realestate(location)
-        # sleep(1)
+        sleep(0.25)
         location.add_owner(player)
         
         # Check if the rent needs to be increased
         if len(player.realestate) <= 1 or location.rent > location.price:
-          # sleep(1)
+          sleep(0.25)
           continue # NEXT PLAYER
         else: 
           colour_to_check = location.colour
@@ -109,7 +109,7 @@ for i in range(len(rounds)):
             properties_to_increase[1].duplicate_rent()
             print("Rent increased for:", properties_to_increase[0].name, properties_to_increase[1].name)  
             
-          # sleep(1)                    
+          sleep(0.25)                    
     # Property has an owner: PAY RENT
     else:
       print("You need to pay", location.rent)
@@ -133,8 +133,10 @@ for i in range(len(rounds)):
   if game_over: 
     break
   
-# sleep(1)
+sleep(0.25)
 find_winner(players)
+
+print("********************** GAME STATS ********************")
 
 #Print Stats
 for player in players:

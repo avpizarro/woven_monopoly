@@ -1,5 +1,6 @@
 import unittest
 from app.models.player import Player
+from app.models.board_property import Board_Property
 
 class TestClass(unittest.TestCase):
   def setUp(self) -> None:
@@ -32,8 +33,9 @@ class TestClass(unittest.TestCase):
   
   def test_new_location(self):
     """Test that the realestate portfolio is growing"""
-    self.assertEqual(self.player.new_realestate("RMIT"), ["RMIT"] )
+    property = Board_Property("Chef Lagenda", "property", 4, "red")
+    self.assertTrue(property in self.player.new_realestate(property))
     
   
 if __name__ == '__main__':
-    unittest.main()
+    unittest.main() 
