@@ -5,6 +5,13 @@ class Player():
     self.location = 0 # All players start in 0
     self.realestate = [] # All players have no realstate at the start
   
+  
+  def print_info(self, board):
+    """Print the name, wallet amount and location of the player"""
+    if self.wallet < 0:
+      self.wallet = 0
+    print(self.name, "has", self.wallet, "dollars, and finished the game in", board[self.location].name + ".")
+    
   def credit(self, amount):
     """Add money to the wallet"""
     self.wallet += amount

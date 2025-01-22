@@ -1,0 +1,299 @@
+You selected: Game_2, let's play!
+------------------------- ROUND 1 --------------------------
+Peter has 16 and owns: []
+Billy has 16 and owns: []
+Charlotte has 16 and owns: []
+Sweedal has 16 and owns: []
+********************** NEXT PLAYER ********************
+Peter rolled 5
+Your new location index is: 5
+Peter is in: Betty's Burgers
+Betty's Burgers belongs to nadie!
+You have acquired: Betty's Burgers your realestate portfolio is growing!
+The new owner of Betty's Burgers is Peter
+********************** NEXT PLAYER ********************
+Billy rolled 2
+Your new location index is: 2
+Billy is in: Fast Kebabs
+Fast Kebabs belongs to nadie!
+You have acquired: Fast Kebabs your realestate portfolio is growing!
+The new owner of Fast Kebabs is Billy
+********************** NEXT PLAYER ********************
+Charlotte rolled 2
+Your new location index is: 2
+Charlotte is in: Fast Kebabs
+Fast Kebabs belongs to Billy
+You need to pay 1
+Billy you received a payment of: 1 for Fast Kebabs
+********************** NEXT PLAYER ********************
+Sweedal rolled 1
+Your new location index is: 1
+Sweedal is in: The Burvale
+The Burvale belongs to nadie!
+You have acquired: The Burvale your realestate portfolio is growing!
+The new owner of The Burvale is Sweedal
+------------------------- ROUND 2 --------------------------
+Peter has 13 and owns: ["Betty's Burgers"]
+Billy has 16 and owns: ['Fast Kebabs']
+Charlotte has 15 and owns: []
+Sweedal has 15 and owns: ['The Burvale']
+********************** NEXT PLAYER ********************
+Peter rolled 4
+You have completed a loop here is $1!
+Your new location index is: 0
+Peter is in: GO
+GO belongs to nadie!
+********************** NEXT PLAYER ********************
+Billy rolled 1
+Your new location index is: 3
+Billy is in: The Grand Tofu
+The Grand Tofu belongs to nadie!
+You have acquired: The Grand Tofu your realestate portfolio is growing!
+The new owner of The Grand Tofu is Billy
+********************** NEXT PLAYER ********************
+Charlotte rolled 2
+Your new location index is: 4
+Charlotte is in: Lanzhou Beef Noodle
+Lanzhou Beef Noodle belongs to nadie!
+You have acquired: Lanzhou Beef Noodle your realestate portfolio is growing!
+The new owner of Lanzhou Beef Noodle is Charlotte
+********************** NEXT PLAYER ********************
+Sweedal rolled 1
+Your new location index is: 2
+Sweedal is in: Fast Kebabs
+Fast Kebabs belongs to Billy
+You need to pay 1
+Billy you received a payment of: 1 for Fast Kebabs
+------------------------- ROUND 3 --------------------------
+Peter has 14 and owns: ["Betty's Burgers"]
+Billy has 15 and owns: ['Fast Kebabs', 'The Grand Tofu']
+Charlotte has 13 and owns: ['Lanzhou Beef Noodle']
+Sweedal has 14 and owns: ['The Burvale']
+********************** NEXT PLAYER ********************
+Peter rolled 3
+Your new location index is: 3
+Peter is in: The Grand Tofu
+The Grand Tofu belongs to Billy
+You need to pay 2
+Billy you received a payment of: 2 for The Grand Tofu
+********************** NEXT PLAYER ********************
+Billy rolled 1
+Your new location index is: 4
+Billy is in: Lanzhou Beef Noodle
+Lanzhou Beef Noodle belongs to Charlotte
+You need to pay 2
+Charlotte you received a payment of: 2 for Lanzhou Beef Noodle
+********************** NEXT PLAYER ********************
+Charlotte rolled 4
+Your new location index is: 8
+Charlotte is in: Massizim
+Massizim belongs to nadie!
+You have acquired: Massizim your realestate portfolio is growing!
+The new owner of Massizim is Charlotte
+********************** NEXT PLAYER ********************
+Sweedal rolled 3
+Your new location index is: 5
+Sweedal is in: Betty's Burgers
+Betty's Burgers belongs to Peter
+You need to pay 3
+Peter you received a payment of: 3 for Betty's Burgers
+------------------------- ROUND 4 --------------------------
+Peter has 15 and owns: ["Betty's Burgers"]
+Billy has 15 and owns: ['Fast Kebabs', 'The Grand Tofu']
+Charlotte has 11 and owns: ['Lanzhou Beef Noodle', 'Massizim']
+Sweedal has 11 and owns: ['The Burvale']
+********************** NEXT PLAYER ********************
+Peter rolled 5
+Your new location index is: 8
+Peter is in: Massizim
+Massizim belongs to Charlotte
+You need to pay 4
+Charlotte you received a payment of: 4 for Massizim
+********************** NEXT PLAYER ********************
+Billy rolled 2
+Your new location index is: 6
+Billy is in: YOMG
+YOMG belongs to nadie!
+You have acquired: YOMG your realestate portfolio is growing!
+The new owner of YOMG is Billy
+********************** NEXT PLAYER ********************
+Charlotte rolled 3
+You have completed a loop here is $1!
+Your new location index is: 2
+Charlotte is in: Fast Kebabs
+Fast Kebabs belongs to Billy
+You need to pay 1
+Billy you received a payment of: 1 for Fast Kebabs
+********************** NEXT PLAYER ********************
+Sweedal rolled 1
+Your new location index is: 6
+Sweedal is in: YOMG
+YOMG belongs to Billy
+You need to pay 3
+Billy you received a payment of: 3 for YOMG
+------------------------- ROUND 5 --------------------------
+Peter has 11 and owns: ["Betty's Burgers"]
+Billy has 16 and owns: ['Fast Kebabs', 'The Grand Tofu', 'YOMG']
+Charlotte has 15 and owns: ['Lanzhou Beef Noodle', 'Massizim']
+Sweedal has 8 and owns: ['The Burvale']
+********************** NEXT PLAYER ********************
+Peter rolled 3
+You have completed a loop here is $1!
+Your new location index is: 2
+Peter is in: Fast Kebabs
+Fast Kebabs belongs to Billy
+You need to pay 1
+Billy you received a payment of: 1 for Fast Kebabs
+********************** NEXT PLAYER ********************
+Billy rolled 1
+Your new location index is: 7
+Billy is in: Gami Chicken
+Gami Chicken belongs to nadie!
+You have acquired: Gami Chicken your realestate portfolio is growing!
+The new owner of Gami Chicken is Billy
+********************** NEXT PLAYER ********************
+Charlotte rolled 1
+Your new location index is: 3
+Charlotte is in: The Grand Tofu
+The Grand Tofu belongs to Billy
+You need to pay 2
+Billy you received a payment of: 2 for The Grand Tofu
+********************** NEXT PLAYER ********************
+Sweedal rolled 3
+You have completed a loop here is $1!
+Your new location index is: 0
+Sweedal is in: GO
+GO belongs to nadie!
+------------------------- ROUND 6 --------------------------
+Peter has 11 and owns: ["Betty's Burgers"]
+Billy has 15 and owns: ['Fast Kebabs', 'The Grand Tofu', 'YOMG', 'Gami Chicken']
+Charlotte has 13 and owns: ['Lanzhou Beef Noodle', 'Massizim']
+Sweedal has 9 and owns: ['The Burvale']
+********************** NEXT PLAYER ********************
+Peter rolled 4
+Your new location index is: 6
+Peter is in: YOMG
+YOMG belongs to Billy
+You need to pay 3
+Billy you received a payment of: 3 for YOMG
+********************** NEXT PLAYER ********************
+Billy rolled 2
+You have completed a loop here is $1!
+Your new location index is: 0
+Billy is in: GO
+GO belongs to nadie!
+********************** NEXT PLAYER ********************
+Charlotte rolled 1
+Your new location index is: 4
+Charlotte is in: Lanzhou Beef Noodle
+Lanzhou Beef Noodle belongs to Charlotte
+You need to pay 2
+Charlotte you received a payment of: 2 for Lanzhou Beef Noodle
+********************** NEXT PLAYER ********************
+Sweedal rolled 3
+Your new location index is: 3
+Sweedal is in: The Grand Tofu
+The Grand Tofu belongs to Billy
+You need to pay 2
+Billy you received a payment of: 2 for The Grand Tofu
+------------------------- ROUND 7 --------------------------
+Peter has 8 and owns: ["Betty's Burgers"]
+Billy has 21 and owns: ['Fast Kebabs', 'The Grand Tofu', 'YOMG', 'Gami Chicken']
+Charlotte has 13 and owns: ['Lanzhou Beef Noodle', 'Massizim']
+Sweedal has 7 and owns: ['The Burvale']
+********************** NEXT PLAYER ********************
+Peter rolled 2
+Your new location index is: 8
+Peter is in: Massizim
+Massizim belongs to Charlotte
+You need to pay 4
+Charlotte you received a payment of: 4 for Massizim
+********************** NEXT PLAYER ********************
+Billy rolled 3
+Your new location index is: 3
+Billy is in: The Grand Tofu
+The Grand Tofu belongs to Billy
+You need to pay 2
+Billy you received a payment of: 2 for The Grand Tofu
+********************** NEXT PLAYER ********************
+Charlotte rolled 5
+You have completed a loop here is $1!
+Your new location index is: 0
+Charlotte is in: GO
+GO belongs to nadie!
+********************** NEXT PLAYER ********************
+Sweedal rolled 5
+Your new location index is: 8
+Sweedal is in: Massizim
+Massizim belongs to Charlotte
+You need to pay 4
+Charlotte you received a payment of: 4 for Massizim
+------------------------- ROUND 8 --------------------------
+Peter has 4 and owns: ["Betty's Burgers"]
+Billy has 21 and owns: ['Fast Kebabs', 'The Grand Tofu', 'YOMG', 'Gami Chicken']
+Charlotte has 22 and owns: ['Lanzhou Beef Noodle', 'Massizim']
+Sweedal has 3 and owns: ['The Burvale']
+********************** NEXT PLAYER ********************
+Peter rolled 3
+You have completed a loop here is $1!
+Your new location index is: 2
+Peter is in: Fast Kebabs
+Fast Kebabs belongs to Billy
+You need to pay 1
+Billy you received a payment of: 1 for Fast Kebabs
+********************** NEXT PLAYER ********************
+Billy rolled 2
+Your new location index is: 5
+Billy is in: Betty's Burgers
+Betty's Burgers belongs to Peter
+You need to pay 3
+Peter you received a payment of: 3 for Betty's Burgers
+********************** NEXT PLAYER ********************
+Charlotte rolled 4
+Your new location index is: 4
+Charlotte is in: Lanzhou Beef Noodle
+Lanzhou Beef Noodle belongs to Charlotte
+You need to pay 2
+Charlotte you received a payment of: 2 for Lanzhou Beef Noodle
+********************** NEXT PLAYER ********************
+Sweedal rolled 5
+You have completed a loop here is $1!
+Your new location index is: 4
+Sweedal is in: Lanzhou Beef Noodle
+Lanzhou Beef Noodle belongs to Charlotte
+You need to pay 2
+Charlotte you received a payment of: 2 for Lanzhou Beef Noodle
+------------------------- ROUND 9 --------------------------
+Peter has 7 and owns: ["Betty's Burgers"]
+Billy has 19 and owns: ['Fast Kebabs', 'The Grand Tofu', 'YOMG', 'Gami Chicken']
+Charlotte has 24 and owns: ['Lanzhou Beef Noodle', 'Massizim']
+Sweedal has 2 and owns: ['The Burvale']
+********************** NEXT PLAYER ********************
+Peter rolled 2
+Your new location index is: 4
+Peter is in: Lanzhou Beef Noodle
+Lanzhou Beef Noodle belongs to Charlotte
+You need to pay 2
+Charlotte you received a payment of: 2 for Lanzhou Beef Noodle
+********************** NEXT PLAYER ********************
+Billy rolled 6
+You have completed a loop here is $1!
+Your new location index is: 2
+Billy is in: Fast Kebabs
+Fast Kebabs belongs to Billy
+You need to pay 1
+Billy you received a payment of: 1 for Fast Kebabs
+********************** NEXT PLAYER ********************
+Charlotte rolled 5
+You have completed a loop here is $1!
+Your new location index is: 0
+Charlotte is in: GO
+GO belongs to nadie!
+********************** NEXT PLAYER ********************
+Sweedal rolled 4
+Your new location index is: 8
+Sweedal is in: Massizim
+Massizim belongs to Charlotte
+You need to pay 4
+GAME OVER Sweedal is broke!
+And the winner, with 25 left in their wallet is 🥁: Charlotte

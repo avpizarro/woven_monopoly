@@ -136,4 +136,8 @@ for i in range(len(rounds)):
 # sleep(1)
 find_winner(players)
 
+#Print Stats
+for player in players:
+  player.print_info(board)
+
 #THE END
